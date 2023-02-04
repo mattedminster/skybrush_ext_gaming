@@ -6,14 +6,11 @@ from flockwave.gps.vectors import GPSCoordinate
 from colour import Color
 import random
 
-__all__ = ("ExtensionTemplate", )
+__all__ = ("GamingTemplate", )
 
 
 
-class ExtensionTemplate(Extension):
-    """Template for Skybrush Server extensions."""
-
-
+class GamingExtension(Extension):
 
     async def run(self, app, configuration, logger):
         game_in_progress = True

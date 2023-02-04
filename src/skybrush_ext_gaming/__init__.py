@@ -1,5 +1,5 @@
 """Adds debugging tools to the Skybrush server."""
 
-from .extension import ExtensionTemplate as construct
+from .extension import GamingExtension as construct
 
 __all__ = ("construct", )
