@@ -1,0 +1,11 @@
+{
+  "EXTENSIONS": {
+    "debug": {
+      "enabled": true
+    },
+    "gaming": {
+      "spam": "ham",
+      "bacon": "Nobody expects the Spanish inquisition!"
+    }
+  }
+}
